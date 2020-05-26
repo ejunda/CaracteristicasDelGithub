@@ -1,2 +1,48 @@
 # Auto detect text files and perform LF normalization
+/*
+ Inplemnetar un algortimo que nos permita ingresar las caracteristicas del
+Github
+Definicion Github
+ */
+package caracteristicasdelgithub;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Erick Unda
+ */
+public class CaracteristicasDelGithub {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner objeto= new Scanner(System. in);// new, reserva espacio de memoriaErick
+        System.out.println("Caracteristicas del Github:");
+        
+        System.out.println("Ingrese sus Nombres:");
+        String nombres=objeto.nextLine();
+        
+        System.out.println("Ingrese la Carrera:");
+        String carrera=objeto.nextLine();
+        
+        System.out.println("Ingrese una definicion de lo que entiende por Github:");
+        String definicion=objeto.nextLine();
+        
+        System.out.println("Ingrese laprimera caracteristicas de  Github:");
+        String caracteristica=objeto.nextLine();
+        
+        System.out.println("Ingrese una segunda caracteristica del Github:");
+        String caracteristicados=objeto.nextLine();
+        
+         System.out.println("Ingrese tercera caracteristicas de  Github:");
+        String caracteristicatres=objeto.nextLine();
+        
+        
+    }
+    
+}
+
 * text=auto
