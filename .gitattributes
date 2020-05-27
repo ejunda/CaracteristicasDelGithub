@@ -40,7 +40,7 @@ public class CaracteristicasDelGithub {
          System.out.println("Ingrese tercera caracteristicas de  Github:");
         String caracteristicatres=objeto.nextLine();
         
-        
+        //fin de proyecto 
     }
     
 }
